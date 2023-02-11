@@ -1,3 +1,55 @@
 body {
     background-color: #3E5B87;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#logo {
+    text-align: center;
+}
+
+div#logo > img {
+    min-width: 13%;
+    max-width: 220px;
+    image-rendering: pixelated;
+}
+
+h1 {
+    margin-top: 25px;
+    color:white;
+    font-weight: 100;
+}
+
+div.slides {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 56%;
+    margin: 0 22% 50px 22%;
+    justify-content: space-between;
+}
+
+div.slides > img {
+    width: 30%;
+}
+
+div#about {
+    color: white;
+    margin: 100px 0 100px 0;
+}
+
+div#about > img {
+    height: 150px;
+    width: 150px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+#banner {
+    background-color: rgb(246, 235, 159);
+    margin: 0 0 20px 0;
+    padding: 1px;
 }
